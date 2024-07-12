@@ -1,0 +1,31 @@
+### List all messages
+GET http://localhost:3000/messages
+
+### Signup
+POST http://localhost:3000/auth/signup
+Content-Type: application/json
+
+{
+	"email": "test6@test.com",
+	"password": "12345"
+}
+
+# {
+# 	"email": "flah@test.com",
+# 	"password": "12345"
+# }
+
+### Sign out
+POST http://localhost:3000/auth/signout
+
+### whoami
+GET http://localhost:3000/auth/whoami
+
+### Signin
+POST http://localhost:3000/auth/signin
+Content-Type: application/json
+
+{
+	"email": "test6@test.com",
+	"password": "12345"
+}
