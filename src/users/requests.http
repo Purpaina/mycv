@@ -1,6 +1,3 @@
-### List all messages
-GET http://localhost:3000/messages
-
 ### Signup
 POST http://localhost:3000/auth/signup
 Content-Type: application/json
